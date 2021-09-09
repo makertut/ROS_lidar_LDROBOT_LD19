@@ -18,7 +18,7 @@ ros::Publisher pub_range( "range_data", &range_msg);
 unsigned long range_timer;
 
 // Frame ID used in the ROS topics
-char frameid[] = "/laser_lite_v3";
+char frameid[] = "/laser_scan_ld19";
 
 void setup()
 {
